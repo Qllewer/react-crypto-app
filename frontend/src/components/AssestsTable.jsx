@@ -33,6 +33,7 @@ export default function AssestsTable() {
 
 	return (
 	<Table
+		style={{ position: 'absolute', bottom: '0px', width: '800px', right: '0px' }}
 		pagination={false}
 		columns={columns}
 		dataSource={data}
